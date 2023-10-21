@@ -1,0 +1,38 @@
+.calendario-icon {
+    width: 110px;
+    height: 60px;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color:  rgb(166, 8, 8);
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.calendario-icon:hover {
+    background-color: rgb(166, 8, 8);
+}
+
+.calendario-icon:active {
+    background-color:  rgb(166, 8, 8);
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
