@@ -36,3 +36,7 @@
     width:100%;
     position:absolute;
 }
+
+p, ul {
+    font-size: large;
+}
