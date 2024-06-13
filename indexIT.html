@@ -45,31 +45,36 @@
                 </li>
               </ul>
               <form class="d-flex">
-                <a href="index.html" role="button" class="btn" target="_blank" style="background-color:white ;">RO <img src="img/romania.png" alt="" width="30%"></a>
+                <a href="index.html" role="button" class="btn"  style="background-color:white ;">RO <img src="img/romania.png" alt="" width="30%"></a>
               </form>
             </div>
           </div>
           
         </nav>  
           <hr>
+        <div class="container">
+
           <div class="table-responsive">
-             <table>
+            <table>
             <tr>
               <td width="40%" align="center">
-                  <header>
+                <header>
                     <h1>Chiesa Ortodossa Rumena di Sesto Fiorentino</h1>
                   </header>
-                <div>
-                  <img src="img/altar.jpg" class="img-fluid" alt="image not found" width="60%">
-                </div>
-              </td>
-            </tr>
-          </table>
+                  <div>
+                    <img src="img/altar.jpg" class="img-fluid" alt="image not found" width="70%">
+                  </div>
+                </td>
+              </tr>
+            </table>
           </div>
-         
+          
           <br>
-          <div class="container">
-            <h3>Descrizione</h3>
+          <div class="container" style=" background-color: #f1f1f1; box-shadow: 5px 5px 5px #888888; text-align: center;">
+            <div style="background-color: rgb(209, 192, 82); border: 10px solid #f1f1f1;">
+              <h2>Descrizione</h2>
+            </div>
+            <br>
             <p>
               Con la benedizione della sua Eccellenza Padre Siluan, Vescovo della Diocesi Ortodossa Rumena d'Italia, il 27 giugno 2017 è nata la Parrocchia Ortodossa Rumena di Santa Martire Agrippina (23 giugno), per tutti i fedeli rumeni e moldavi che vivono in queste terre.
               
@@ -88,35 +93,53 @@
               Il 20 dicembre 2020, in occasione della festa di San Ignazio Teoforo, ha avuto inizio il servizio nel nuovo spazio, che, grazie alla generosità dei fedeli, sarà acquistato e trasformato in una "Chiesa Parrocchiale".
               
               Sia lodato Dio per tutte le benedizioni effuse su di noi.</p>
-          </div>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2583892721433095"
+            </div>
+            
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2583892721433095"
      crossorigin="anonymous"></script>
-          <div class="container">
-            <h3>Consulta il calendario!</h3>
+     
+          <div class="container" style=" background-color: #f1f1f1; box-shadow: 5px 5px 5px #888888; text-align: center; ">
+            <div style="background-color: rgb(209, 192, 82); border: 10px solid #f1f1f1;">
+              <h2>Consulta il calendario!</h2>
+            </div>
+            
             <p>Pigiando sul bottone potrai vedere i santi del giorno insieme al Vangelo, l'apostolo e le preghiere del giorno. (In rumeno)</p>
-            <div id="linkDiv" class="calendario-icon">
+            <div id="linkDiv" class="calendario-icon" style="margin: auto;">
               calendario <br>
               <div id="calendario"  style="background-color: white; color: black; height: 26.5px; border-bottom-left-radius: 18px; border-bottom-right-radius: 19px;">  </div>
             </div>
-
+            
             
             <br>
           </div> 
-          
-          <div class="container">
-            <br>
-            <h3 style="color: rgb(166, 8, 8) ;">Programma Liturgico</h3>
-            <ul>
-              <li>Giovedì: 15:00 Programma con le badanti</li>
-              <li>Venerdì: 18:00 Confessioni con prenotazione</li>
-              <li>Sabato: 18:00 Vespri  19:00 Confessioni</li>
-              <li>Domenica: 08:00 Mattutino  9:30 Sf. Liturgia</li>
-            </ul>
-          </div>  
-    </div>
-
-
-    <footer style="background-color: rgb(42, 41, 41);  height: 100px; "></footer>
+          <br>
+          <div>
+            <button class=" collapsible" onclick="toggleCollapse()" style="color: rgb(166, 8, 8) ; font-size: large;font-weight: bold ; text-align: center;"><u>Programma Liturgico</u> </button>
+            <div class="content" id="collapseContent">
+              <ul>
+                <li>Giovedì: 15:00 Programma con le badanti</li>
+                <li>Venerdì: 18:00 Confessioni con prenotazione</li>
+                <li>Sabato: 18:00 Vespri  19:00 Confessioni</li>
+                <li>Domenica: 08:00 Mattutino  9:30 Sf. Liturgia</li>
+              </ul>
+            </div>
+            
+          </div>
+           <br> 
+          </div>
+        
+      </div>  
+        
+    <footer style="background-color: rgb(42, 41, 41);  height: 200px; ">
+      <div class="container" style="color: rgb(166, 8, 8); font-size: medium;">
+        <br>
+        <p>Link utili</p>
+        <ul>
+          <li><a href="https://episcopia-italiei.it/index.php/ro/" style="color: whitesmoke; font-size: medium;">Diocesi Ortodossa Romena D'Italia</a></li>
+          <li><a href="https://doxologia.ro/" style="color: whitesmoke; font-size: medium;">Doxologia</a></li>
+        </ul>
+      </div>
+    </footer>
     <script src="scriptIT.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>

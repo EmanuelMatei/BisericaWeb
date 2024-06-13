@@ -63,3 +63,12 @@ let linkDiv = document.getElementById("linkDiv");
 linkDiv.addEventListener("click", function () {
     window.location.href = "https://starchanges.fr/calendarul-zilei-doxologia";
 });
+
+function toggleCollapse() {
+    var content = document.getElementById("collapseContent");
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+};
